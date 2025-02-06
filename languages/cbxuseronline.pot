@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CBX User Online & Last Login\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-12 11:11+0000\n"
+"POT-Creation-Date: 2025-02-06 17:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -148,7 +148,7 @@ msgid ""
 "%2$s</a> installed and activated  - Codeboxr Team"
 msgstr ""
 
-#: templates/dashboard-doc.php:170
+#: templates/dashboard-doc.php:175
 msgid "CBX User Online & Last Login Plugin Details"
 msgstr ""
 
@@ -182,14 +182,6 @@ msgstr ""
 
 #: widgets/classic-widget/cbxonline-widget.php:31
 msgid "CBX: Online Users"
-msgstr ""
-
-#: templates/dashboard-doc.php:79
-msgid "Changelog Core Plugin"
-msgstr ""
-
-#: templates/dashboard-doc.php:119
-msgid "Changelog Pro Addon"
 msgstr ""
 
 #. 1: Plugin setting url page 2. Documentation url
@@ -251,7 +243,7 @@ msgstr ""
 msgid "codeboxr"
 msgstr ""
 
-#: templates/dashboard-doc.php:252
+#: templates/dashboard-doc.php:257
 msgid "Codeboxr News Updates"
 msgstr ""
 
@@ -287,7 +279,11 @@ msgstr ""
 msgid "Copy"
 msgstr ""
 
-#: templates/dashboard-doc.php:198
+#: templates/dashboard-doc.php:79
+msgid "Core Plugin Changelogs"
+msgstr ""
+
+#: templates/dashboard-doc.php:203
 msgid "Core Plugin Support"
 msgstr ""
 
@@ -342,7 +338,7 @@ msgstr ""
 msgid "Documentation"
 msgstr ""
 
-#: templates/dashboard-doc.php:180
+#: templates/dashboard-doc.php:185
 msgid "Documentation & User Guide"
 msgstr ""
 
@@ -378,7 +374,7 @@ msgstr ""
 msgid "Guest"
 msgstr ""
 
-#: templates/dashboard-doc.php:159
+#: templates/dashboard-doc.php:164
 msgid "Help & Supports"
 msgstr ""
 
@@ -527,7 +523,7 @@ msgstr ""
 msgid "Option Name"
 msgstr ""
 
-#: templates/dashboard-doc.php:215
+#: templates/dashboard-doc.php:220
 msgid "Other WordPress Plugins"
 msgstr ""
 
@@ -602,7 +598,11 @@ msgstr ""
 msgid "Please Select"
 msgstr ""
 
-#: templates/dashboard-doc.php:208
+#: templates/dashboard-doc.php:119
+msgid "Pro Addon Changelogs"
+msgstr ""
+
+#: templates/dashboard-doc.php:213
 msgid "Pro Addon Support"
 msgstr ""
 
@@ -646,7 +646,7 @@ msgstr ""
 msgid "Reset option values and all tables created by this plugin"
 msgstr ""
 
-#: templates/dashboard-doc.php:188
+#: templates/dashboard-doc.php:193
 msgid "Review & Rate CBX User Online & Last Login Plugin"
 msgstr ""
 
@@ -658,7 +658,7 @@ msgstr ""
 msgid "save and close"
 msgstr ""
 
-#: includes/CBXUseronlineSetting.php:1318 templates/dashboard-settings.php:40
+#: includes/CBXUseronlineSetting.php:1317 templates/dashboard-settings.php:40
 msgid "Save Settings"
 msgstr ""
 
@@ -807,7 +807,7 @@ msgstr ""
 msgid "Title:"
 msgstr ""
 
-#: includes/CBXUseronlineSetting.php:1293
+#: includes/CBXUseronlineSetting.php:1292
 msgid "Toggle All Sections"
 msgstr ""
 

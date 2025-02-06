@@ -3,7 +3,7 @@ Contributors: codeboxr, manchumahara
 Tags: wordpress user online,useronline,bbpress,buddypress,last login
 Requires at least: 5.3
 Tested up to: 6.7.1
-Stable tag: 1.3.2
+Stable tag: 1.3.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -144,6 +144,10 @@ Cookie name is "cbxuseronline-cookie", value is created dynamically
 
 
 == Changelog ==
+= 1.3.3 =
+* [updated] Pro Addon V1.1.5 released
+* [updated] Dashboard plugin support page html markup fixed for changelogs
+
 = 1.3.2 =
 * [updated] Dashboard style improvement
 * [updated] Pro Addon V1.1.4 released

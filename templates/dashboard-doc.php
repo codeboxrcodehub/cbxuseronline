@@ -76,17 +76,26 @@ $doc_url    = CBXUseronlineHelper::url_utmy( 'https://codeboxr.com/doc/cbxuseron
                 <div class="cbx-backend-card dashboard-changelog">
                     <div class="header">
                         <div class="text">
-                            <h2><?php esc_attr_e( 'Changelog Core Plugin', 'cbxuseronline' ); ?></h2>
+                            <h2><?php esc_attr_e( 'Core Plugin Changelogs', 'cbxuseronline' ); ?></h2>
                         </div>
                     </div>
                     <div class="content">
+                        <div class="cbx-backend-settings-row">
+                            <p>
+                                Version - 1.3.3
+                            </p>
+                            <ul>
+                                <li>[updated] Pro Addon V1.1.5 released</li>
+                                <li>[updated] Dashboard plugin support page html markup fixed for changelogs</li>
+                            </ul>
+                        </div>
                         <div class="cbx-backend-settings-row">
                             <p>
                                 Version - 1.3.2
                             </p>
                             <ul>
                                 <li>[updated] Dashboard style improvement</li>
-                                <li>[updated] Pro Addon V1.1.4 released/li>
+                                <li>[updated] Pro Addon V1.1.4 released</li>
                                 <li>[Updated] Plugin check plugin V1.4.0 compatible</li>
                             </ul>
                         </div>
@@ -102,25 +111,25 @@ $doc_url    = CBXUseronlineHelper::url_utmy( 'https://codeboxr.com/doc/cbxuseron
                                 <li>[updated] Pro Addon V1.1.3 released</li>
                             </ul>
                         </div>
-                        <div class="cbx-backend-settings-row">
-                            <p>
-                                Version - 1.2.13
-                            </p>
-                            <ul>
-                                <li>[new] Ignore new user role(s) for online user</li>
-                                <li>[bugfix] Setting reset database error fixed for table reset</li>
-                                <li>[update] Pro addon 1.1.1 released</li>
-                            </ul>
-                        </div>
                     </div>
                 </div>
                 <div class="cbx-backend-card dashboard-changelog">
                     <div class="header">
                         <div class="text">
-                            <h2><?php esc_html_e( 'Changelog Pro Addon', 'cbxuseronline' ); ?></h2>
+                            <h2><?php esc_html_e( 'Pro Addon Changelogs', 'cbxuseronline' ); ?></h2>
                         </div>
                     </div>
                     <div class="content">
+                        <div class="cbx-backend-settings-row">
+                            <p>
+                                Version - 1.1.5
+                            </p>
+                            <ul>
+                                <li>[fixed] Fixed the Ipstack api service bug</li>
+                                <li>[improvement] Login history excel export now shows warning if phpexcel library is not installed and improved the export feature</li>
+                                <li>[improvement] Dashboard login history display improved</li>
+                            </ul>
+                        </div>
                         <div class="cbx-backend-settings-row">
                             <p>
                                 Version - 1.1.4
@@ -143,23 +152,6 @@ $doc_url    = CBXUseronlineHelper::url_utmy( 'https://codeboxr.com/doc/cbxuseron
                                 <li>[updated] WordPress core V6.7.1 compatible</li>
                                 <li>[new] SVG icon added everywhere</li>
                                 <li>[Updated] Core plugin V1.3.1 released</li>
-                            </ul>
-                        </div>
-                        <div class="cbx-backend-settings-row">
-                            <p>
-                                Version - 1.1.1
-                            </p>
-                            <ul>
-                                <li>[new] Ignore new user role(s) for login history</li>
-                                <li>[bugfix] Setting reset database error fixed for table reset</li>
-                            </ul>
-                        </div>
-                        <div class="cbx-backend-settings-row">
-                            <p>
-                                Version - 1.1.0
-                            </p>
-                            <ul>
-                                <li>[improvements] Security improvements</li>
                             </ul>
                         </div>
                     </div>
