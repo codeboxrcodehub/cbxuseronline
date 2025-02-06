@@ -63,7 +63,7 @@ class CBXUseronlineUninstall {
 		global $wpdb;
 
 		$settings = new CBXUseronlineSetting();
-		$delete_global_config = $settings->get_option( 'delete_global_config', 'cbxuseronline_tools', 'no' );
+		$delete_global_config = $settings->get_field( 'delete_global_config', 'cbxuseronline_tools', 'no' );
 
 		if ( $delete_global_config == 'yes' ) {
 			//before hook

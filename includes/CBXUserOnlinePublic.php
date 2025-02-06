@@ -129,7 +129,7 @@ class CBXUserOnlinePublic {
 
 		$current_user = wp_get_current_user();
 		if ( absint($current_user->ID) ) {
-			$ignore_user_roles   = $settings->get_option( 'ignore_user_roles', 'cbxuseronline_basics', [] );
+			$ignore_user_roles   = $settings->get_field( 'ignore_user_roles', 'cbxuseronline_basics', [] );
 			if(is_array($ignore_user_roles) && count($ignore_user_roles)){
 				$user_roles = ( array ) $current_user->roles;
 

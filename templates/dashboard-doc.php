@@ -82,6 +82,16 @@ $doc_url    = CBXUseronlineHelper::url_utmy( 'https://codeboxr.com/doc/cbxuseron
                     <div class="content">
                         <div class="cbx-backend-settings-row">
                             <p>
+                                Version - 1.3.2
+                            </p>
+                            <ul>
+                                <li>[updated] Dashboard style improvement</li>
+                                <li>[updated] Pro Addon V1.1.4 released/li>
+                                <li>[Updated] Plugin check plugin V1.4.0 compatible</li>
+                            </ul>
+                        </div>
+                        <div class="cbx-backend-settings-row">
+                            <p>
                                 Version - 1.3.1
                             </p>
                             <ul>
@@ -102,15 +112,6 @@ $doc_url    = CBXUseronlineHelper::url_utmy( 'https://codeboxr.com/doc/cbxuseron
                                 <li>[update] Pro addon 1.1.1 released</li>
                             </ul>
                         </div>
-                        <div class="cbx-backend-settings-row">
-                            <p>
-                                Version - 1.2.12
-                            </p>
-                            <ul>
-                                <li>[improvement] Minor code improvement for security</li>
-                                <li>[pro addon] Pro Addon V1.1.0 Released</li>
-                            </ul>
-                        </div>
                     </div>
                 </div>
                 <div class="cbx-backend-card dashboard-changelog">
@@ -120,6 +121,18 @@ $doc_url    = CBXUseronlineHelper::url_utmy( 'https://codeboxr.com/doc/cbxuseron
                         </div>
                     </div>
                     <div class="content">
+                        <div class="cbx-backend-settings-row">
+                            <p>
+                                Version - 1.1.4
+                            </p>
+                            <ul>
+                                <li>[fixed] Fixed the geo api for login history</li>
+                                <li>[new] New Geo api ipstack service provided</li>
+                                <li>[improvement] Daterange style improved</li>
+                                <li>[Updated] Core plugin V1.3.2 released</li>
+                                <li>[Updated] Plugin check plugin V1.4.0 compatible</li>
+                            </ul>
+                        </div>
                         <div class="cbx-backend-settings-row">
                             <p>
                                 Version - 1.1.3

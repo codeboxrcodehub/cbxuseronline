@@ -196,7 +196,7 @@ if ( ! class_exists( 'CBXUseronlineSetting' ) ):
 
 			// creates our settings in the options table
 			foreach ( $this->settings_sections as $section ) {
-				register_setting( $section['id'], $section['id'], [ $this, 'sanitize_options' ] );
+				register_setting( $section['id'], $section['id'], [ $this, 'sanitize_options' ] ); //phpcs:ignore PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
 			}
 		}//end method admin_init
 
@@ -1191,7 +1191,6 @@ if ( ! class_exists( 'CBXUseronlineSetting' ) ):
 		 * @return string
 		 */
 		function get_option( $option, $section, $default = '' ) {
-
 			$options = get_option( $section );
 
 			if ( isset( $options[ $option ] ) ) {

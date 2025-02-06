@@ -85,7 +85,7 @@ class CBXUserOnlineHelper {
 	public static function getAllOptionNames() {
 		global $wpdb;
 
-		$prefix = 'cbxuseronline';
+		$prefix = 'cbxuseronline_';
 
 
 		$wild = '%';
@@ -1285,7 +1285,7 @@ class CBXUserOnlineHelper {
 		$full_table_name = $wpdb->prefix . $table_name;
 
 		// Query to check if the table exists
-		$table_exists = $wpdb->get_var($wpdb->prepare("SHOW TABLES LIKE %s", $full_table_name));
+		$table_exists = $wpdb->get_var($wpdb->prepare("SHOW TABLES LIKE %s", $full_table_name)); //phpcs:ignore WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching
 
 		// Return true if the table exists, false otherwise
 		return ($table_exists === $full_table_name);
