@@ -757,7 +757,7 @@ class CBXUserOnlineAdmin {
 
 		$pro_addon_version = CBXUseronlineHelper::get_any_plugin_version( 'cbxuseronlineproaddon/cbxuseronlineproaddon.php' );
 
-		$pro_latest_version  = '1.1.5';
+		$pro_latest_version  = '1.1.6';
 
 		if ( $pro_addon_version != '' && version_compare( $pro_addon_version, $pro_latest_version, '<' ) ) {
 			// Custom message to display

@@ -82,6 +82,16 @@ $doc_url    = CBXUseronlineHelper::url_utmy( 'https://codeboxr.com/doc/cbxuseron
                     <div class="content">
                         <div class="cbx-backend-settings-row">
                             <p>
+                                Version - 1.3.4
+                            </p>
+                            <ul>
+                                <li>[updated] WordPress 6.7.2 compatible</li>
+                                <li>[updated] Plugin dashboard style updated</li>
+                                <li>[updated] Pro Addon V1.1.6 released</li>
+                            </ul>
+                        </div>
+                        <div class="cbx-backend-settings-row">
+                            <p>
                                 Version - 1.3.3
                             </p>
                             <ul>
@@ -99,18 +109,6 @@ $doc_url    = CBXUseronlineHelper::url_utmy( 'https://codeboxr.com/doc/cbxuseron
                                 <li>[Updated] Plugin check plugin V1.4.0 compatible</li>
                             </ul>
                         </div>
-                        <div class="cbx-backend-settings-row">
-                            <p>
-                                Version - 1.3.1
-                            </p>
-                            <ul>
-                                <li>[new] New dashboard style</li>
-                                <li>[new] Plugin check version V1.3.1 compatible</li>
-                                <li>[updated] WordPress core V6.7.1 compatible</li>
-                                <li>[new] SVG icon added everywhere</li>
-                                <li>[updated] Pro Addon V1.1.3 released</li>
-                            </ul>
-                        </div>
                     </div>
                 </div>
                 <div class="cbx-backend-card dashboard-changelog">
@@ -120,6 +118,17 @@ $doc_url    = CBXUseronlineHelper::url_utmy( 'https://codeboxr.com/doc/cbxuseron
                         </div>
                     </div>
                     <div class="content">
+                        <div class="cbx-backend-settings-row">
+                            <p>
+                                Version - 1.1.6
+                            </p>
+                            <ul>
+                                <li>[fixed] Plugin update checker warning fixed</li>
+                                <li>[updated] Plugin dashboard style updated</li>
+                                <li>[updated] WordPress 6.7.2 compatible</li>
+                                <li>[updated] Core plugin V1.3.4 released</li>
+                            </ul>
+                        </div>
                         <div class="cbx-backend-settings-row">
                             <p>
                                 Version - 1.1.5
@@ -140,18 +149,6 @@ $doc_url    = CBXUseronlineHelper::url_utmy( 'https://codeboxr.com/doc/cbxuseron
                                 <li>[improvement] Daterange style improved</li>
                                 <li>[Updated] Core plugin V1.3.2 released</li>
                                 <li>[Updated] Plugin check plugin V1.4.0 compatible</li>
-                            </ul>
-                        </div>
-                        <div class="cbx-backend-settings-row">
-                            <p>
-                                Version - 1.1.3
-                            </p>
-                            <ul>
-                                <li>[new] New dashboard style</li>
-                                <li>[new] Plugin check version V1.3.1 compatible</li>
-                                <li>[updated] WordPress core V6.7.1 compatible</li>
-                                <li>[new] SVG icon added everywhere</li>
-                                <li>[Updated] Core plugin V1.3.1 released</li>
                             </ul>
                         </div>
                     </div>
