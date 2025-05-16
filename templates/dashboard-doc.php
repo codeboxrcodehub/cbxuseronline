@@ -82,6 +82,16 @@ $doc_url    = CBXUseronlineHelper::url_utmy( 'https://codeboxr.com/doc/cbxuseron
                     <div class="content">
                         <div class="cbx-backend-settings-row">
                             <p>
+                                Version - 1.3.5
+                            </p>
+                            <ul>
+                                <li>[updated] WordPress 6.8 compatible</li>
+                                <li>[fixed] Most user online counter section year wrong error fixed</li>
+                                <li>[updated] Pro Addon V1.1.7 released</li>
+                            </ul>
+                        </div>
+                        <div class="cbx-backend-settings-row">
+                            <p>
                                 Version - 1.3.4
                             </p>
                             <ul>
@@ -99,16 +109,6 @@ $doc_url    = CBXUseronlineHelper::url_utmy( 'https://codeboxr.com/doc/cbxuseron
                                 <li>[updated] Dashboard plugin support page html markup fixed for changelogs</li>
                             </ul>
                         </div>
-                        <div class="cbx-backend-settings-row">
-                            <p>
-                                Version - 1.3.2
-                            </p>
-                            <ul>
-                                <li>[updated] Dashboard style improvement</li>
-                                <li>[updated] Pro Addon V1.1.4 released</li>
-                                <li>[Updated] Plugin check plugin V1.4.0 compatible</li>
-                            </ul>
-                        </div>
                     </div>
                 </div>
                 <div class="cbx-backend-card dashboard-changelog">
@@ -118,6 +118,16 @@ $doc_url    = CBXUseronlineHelper::url_utmy( 'https://codeboxr.com/doc/cbxuseron
                         </div>
                     </div>
                     <div class="content">
+                        <div class="cbx-backend-settings-row">
+                            <p>
+                                Version - 1.1.7
+                            </p>
+                            <ul>
+                                <li>[updated] Style improvement for dashboard display</li>
+                                <li>[updated] WordPress 6.8 compatible</li>
+                                <li>[updated] Core plugin V1.3.5 released</li>
+                            </ul>
+                        </div>
                         <div class="cbx-backend-settings-row">
                             <p>
                                 Version - 1.1.6
@@ -137,18 +147,6 @@ $doc_url    = CBXUseronlineHelper::url_utmy( 'https://codeboxr.com/doc/cbxuseron
                                 <li>[fixed] Fixed the Ipstack api service bug</li>
                                 <li>[improvement] Login history excel export now shows warning if phpexcel library is not installed and improved the export feature</li>
                                 <li>[improvement] Dashboard login history display improved</li>
-                            </ul>
-                        </div>
-                        <div class="cbx-backend-settings-row">
-                            <p>
-                                Version - 1.1.4
-                            </p>
-                            <ul>
-                                <li>[fixed] Fixed the geo api for login history</li>
-                                <li>[new] New Geo api ipstack service provided</li>
-                                <li>[improvement] Daterange style improved</li>
-                                <li>[Updated] Core plugin V1.3.2 released</li>
-                                <li>[Updated] Plugin check plugin V1.4.0 compatible</li>
                             </ul>
                         </div>
                     </div>

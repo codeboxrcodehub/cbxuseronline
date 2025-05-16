@@ -16,7 +16,7 @@
  * Plugin Name:       CBX User Online & Last Login
  * Plugin URI:        https://codeboxr.com/product/cbx-user-online-for-wordpress
  * Description:       This plugin shows WordPress online users and records last login
- * Version:           1.3.4
+ * Version:           1.3.5
  * Author:            codeboxr
  * Author URI:        https://codeboxr.com
  * License:           GPL-2.0+
@@ -32,7 +32,7 @@ if ( ! defined( 'WPINC' ) ) {
 
 //plugin definition specific constants
 defined( 'CBX_USERONLINE_PLUGIN_NAME' ) or define( 'CBX_USERONLINE_PLUGIN_NAME', 'cbxuseronline' );
-defined( 'CBX_USERONLINE_PLUGIN_VERSION' ) or define( 'CBX_USERONLINE_PLUGIN_VERSION', '1.3.4' );
+defined( 'CBX_USERONLINE_PLUGIN_VERSION' ) or define( 'CBX_USERONLINE_PLUGIN_VERSION', '1.3.5' );
 defined( 'CBX_USERONLINE_PLUGIN_BASE_NAME' ) or define( 'CBX_USERONLINE_PLUGIN_BASE_NAME', plugin_basename( __FILE__ ) );
 defined( 'CBX_USERONLINE_PLUGIN_ROOT_PATH' ) or define( 'CBX_USERONLINE_PLUGIN_ROOT_PATH', plugin_dir_path( __FILE__ ) );
 defined( 'CBX_USERONLINE_PLUGIN_ROOT_URL' ) or define( 'CBX_USERONLINE_PLUGIN_ROOT_URL', plugin_dir_url( __FILE__ ) );

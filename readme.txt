@@ -2,8 +2,8 @@
 Contributors: codeboxr, manchumahara
 Tags: wordpress user online,useronline,bbpress,buddypress,last login
 Requires at least: 5.3
-Tested up to: 6.7.2
-Stable tag: 1.3.4
+Tested up to: 6.8
+Stable tag: 1.3.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -144,6 +144,11 @@ Cookie name is "cbxuseronline-cookie", value is created dynamically
 
 
 == Changelog ==
+= 1.3.5 =
+* [updated] WordPress 6.8 compatible
+* [fixed] Most user online counter section year wrong error fixed
+* [updated] Pro Addon V1.1.7 released
+
 = 1.3.4 =
 * [updated] WordPress 6.7.2 compatible
 * [updated] Plugin dashboard style updated
@@ -230,30 +235,3 @@ Cookie name is "cbxuseronline-cookie", value is created dynamically
 
 = 1.0.10 =
 * [Updated] Setting page online user listing now displays user's current browsing url and page title
-
-= 1.0.9 =
-* [New Feature] Elementor support added
-* [New Feature] WPBakery support added
-* [New Feature] Backend setting new tab for current online users
-* [New Feature] Backend setting style improvement
-
-
-= 1.0.8 =
-* [improvement] Updated Setting Api
-
-= 1.0.7 =
-* [New Feature] Added new feature to record second last login time, by default off
-
-= 1.0.6 =
-* [New Feature] User's last login in admin user listing
-* [New Feature] Reset plugin from the plugin setting
-* [New Feature] Delete plugin data on uninstall
-
-= 1.0.5 =
-* [New Feature] Purge login log record data from setting
-* [New Feature] Purge login log when someone log out, solves duplicate show
-* [New Feature] Pro addon updated for bbPress to show online user
-
-= 1.0.4 =
-* [New Feature] New fields section name as "Integration" for 3rd party plugin integration
-

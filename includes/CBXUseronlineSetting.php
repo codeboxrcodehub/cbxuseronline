@@ -1014,11 +1014,11 @@ if ( ! class_exists( 'CBXUseronlineSetting' ) ):
 				$most_user_date = date_i18n( sprintf( esc_html_x( '%1$s @ %2$s', 'Date @ time', 'cbxuseronline' ), get_option( 'date_format', __( 'F j, Y', 'cbxuseronline' ) ), get_option( 'time_format', __( 'g:i a', 'cbxuseronline' ) ) ), $most_user_date );
 			}*/
 
-			if ( $mysql_date ) {
-				$most_user_date = mysql2date( $formatted_string, $most_user_date, true );
-			} else {
-				$most_user_date = date_i18n( $formatted_string, strtotime( $most_user_date ) );
-			}
+			//if ( $mysql_date ) {
+			//	$most_user_date = mysql2date( $formatted_string, $most_user_date, true );
+			//} else {
+				$most_user_date = date_i18n( $formatted_string, $most_user_date);
+			//}
 
 			/* translators: 1: Most user online count 2. Most user online date */
 			$most_useronline_html = '<p style="margin-bottom: 20px;">' . sprintf( wp_kses( __( 'Most users ever online were <strong>%1$d</strong>, on %2$s', 'cbxuseronline' ), [ 'strong' => [] ] ), $most_user_count, $most_user_date ) . '</p>';

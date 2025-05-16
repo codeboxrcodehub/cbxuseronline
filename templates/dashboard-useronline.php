@@ -132,11 +132,11 @@ if ( ! defined( 'WPINC' ) ) {
 							$mostuser_date = date_i18n( sprintf( esc_html_x( '%1$s @ %2$s', 'Date @ time', 'cbxuseronline' ), get_option( 'date_format', __( 'F j, Y', 'cbxuseronline' ) ), get_option( 'time_format', __( 'g:i a', 'cbxuseronline' ) ) ), $mostuser_date );
 						}*/
 
-						if ( $mysql_date ) {
-							$mostuser_date = mysql2date( $formatted_string, $mostuser_date, true );
-						} else {
-							$mostuser_date = date_i18n( $formatted_string, strtotime( $mostuser_date ) );
-						}
+						//if ( $mysql_date ) {
+						//	$mostuser_date = mysql2date( $formatted_string, $mostuser_date, true );
+						//} else {
+							$mostuser_date = date_i18n( $formatted_string, $mostuser_date);
+						//}
 
 						/* translators: 1: Most user count 2. Most user countr date */
 						$mostuseronline_html = '<p style="margin-bottom: 20px;">' . sprintf( wp_kses(__( 'Most users ever online were <strong>%1$d</strong>, on %2$s', 'cbxuseronline' ), ['strong' => []]), $mostuser_count, $mostuser_date ) . '</p>';

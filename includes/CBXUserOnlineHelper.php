@@ -893,8 +893,11 @@ class CBXUserOnlineHelper {
 		if ( $mostuseronline ) {
 			$mostuser = get_option( 'cbxuseronline_mostonline', [] );
 
+			//write_log($mostuser);
+
 			$mostuser_count = isset( $mostuser['count'] ) ? intval( $mostuser['count'] ) : 0;
 			$mostuser_date  = isset( $mostuser['date'] ) ? sanitize_text_field( $mostuser['date'] ) : '';
+
 
 			$mysql_date = false;
 
@@ -909,11 +912,12 @@ class CBXUserOnlineHelper {
 				$mostuser_date = date_i18n( sprintf( esc_html_x( '%1$s @ %2$s', 'Date @ time', 'cbxuseronline' ), get_option( 'date_format', __( 'F j, Y' ) ), get_option( 'time_format', __( 'g:i a' ) ) ), $mostuser_date );
 			}*/
 
-			if ( $mysql_date ) {
-				$mostuser_date = mysql2date( $formatted_string, $mostuser_date, true );
-			} else {
-				$mostuser_date = date_i18n( $formatted_string, strtotime( $mostuser_date ) );
-			}
+			//if ( $mysql_date ) {
+			//	$mostuser_date = mysql2date( $formatted_string, $mostuser_date, true );
+			//} else {
+				//$mostuser_date = date_i18n( $formatted_string, strtotime( $mostuser_date ) );
+				$mostuser_date = date_i18n( $formatted_string, $mostuser_date );
+			//}
 
 
 			/* translators: 1: Most user count 2. Most user countr date */
